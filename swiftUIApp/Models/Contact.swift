@@ -21,6 +21,7 @@ struct Contact: Hashable, Codable, Identifiable {
     fileprivate var coordinates: Coordinates
     var state: String
     var park: String
+    var isFavorite: Bool
     var category: Category
     
     var locationCoordinate: CLLocationCoordinate2D {

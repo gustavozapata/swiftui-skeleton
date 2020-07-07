@@ -136,6 +136,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5BC50024B5362900CFD3BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4C95749D24AF671700E7284A = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +166,7 @@
 		4C9574A824AF671700E7284A /* swiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C5BC50024B5362900CFD3BE /* Views */,
 				4C95750024B0A70B00E7284A /* Components */,
 				4C9574ED24AFDDA200E7284A /* Resources */,
 				4C9574E424AFD6B900E7284A /* Models */,
